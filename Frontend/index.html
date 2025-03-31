@@ -10,10 +10,13 @@
 
 <body>
     <header>
-        <nav>
+        <nav id="navbar">
 
-            <h1>My Landing Page</h1>
-            <ul>
+            <div class="my-logo">
+                <img src="assets/" alt="logo">
+                Il mio logo
+            </div>
+            <ul class="nav-links">
                 <li><a href="#">Chi sono</a></li>
                 <li><a href="#">Progetti</a></li>
                 <li><a href="#">Contatti</a></li>
@@ -21,14 +24,21 @@
 
         </nav>
     </header>
+    <main>
 
-    <section id="hero-section"></section>
-    <section id="about-me"></section>
-    <section id="projects"></section>
-    <section id="contact">a</section>
-    
+
+        <section id="hero-section">
+            <h1>Benvenuto nel mio Portfolio</h1>
+            <p>Esplora i miei lavori e le mie competenze</p>
+            <a href="#projects" class="btn">Scopri i Progetti</a>
+        </section>
+        <section id="about-me"></section>
+        <section id="projects"></section>
+        <section id="contact">a</section>
+    </main>
     <footer>
         <p>&copy;Francesco Trovato 2024 Landing Page Project</p>
+        <p><a href="#contact">Miei contatti</a></p>
     </footer>
     <script src="js/main.js"></script>
 </body>
